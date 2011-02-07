@@ -1,1 +1,1 @@
-plguin.image.zenfolio is XBMC add-on for browsing Zenfolio accounts.
+plugin.image.zenfolio is XBMC add-on for browsing Zenfolio accounts.
