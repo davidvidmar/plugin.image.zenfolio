@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.image.zenfolio"
+  version="1.0.2"
+  name="Zenfolio"
+  provider-name="David Vidmar">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+    <import addon="script.module.simplejson" version="2.0.9"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>image</provides>
+  </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <minversion>31632</minversion>
+        <summary>View your Zenfolio photo portfolio in style</summary>
+        <description>...</description>
+        <disclaimer>...</disclaimer>
+    </extension>
+</addon>
